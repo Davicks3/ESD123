@@ -1,0 +1,2 @@
+analyzer_threshold_l:5e-06
+analyzer_threshold_r:5e-06

@@ -1,0 +1,29 @@
+## Eksempel
+
+
+#include "ToVar.h"
+
+DualVarComm comm(&Serial1);
+
+void setup() {
+    Serial.begin(115200);
+    Serial1.begin(115200);
+}
+
+void loop() {
+    // Send example
+    comm.sendVars(-30, 45000);
+
+    int16_t angle;
+    uint32_t distance;
+
+    if (comm.receiveVars(angle, distance)) {
+        Serial.print("Angle: ");
+        Serial.print(angle);
+        Serial.print(" Distance: ");
+        Serial.println(distance);
+    }
+
+    delay(100);
+}
+
