@@ -127,7 +127,6 @@ bool PeakInterpolator::interpolate_peaks_parabolic(size_t n_samples,
                                                    float* peaks,
                                                    float* time)
 {
-    // Optional: reuse normalization from sinc path
     normalize(n_samples, est_peaks[0], est_peaks[n_peaks - 1]);
 
     for (size_t j = 0; j < n_peaks; ++j) {
