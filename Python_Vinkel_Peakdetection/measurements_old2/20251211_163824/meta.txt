@@ -1,5 +1,0 @@
-analyzer_threshold_l:1.1e-05
-analyzer_threshold_r:1.1e-05
-angle_deg:40.308926416035106
-distance_L_m:0.42128267391
-distance_R_m:0.48287989673

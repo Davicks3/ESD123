@@ -1,2 +1,0 @@
-analyzer_threshold_l:2.4e-05
-analyzer_threshold_r:1.8e-05
